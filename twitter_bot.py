@@ -47,10 +47,10 @@ def Reply_to_tweets():
     cwd = os.getcwd()
     path = cwd + '\\'
 
-    CONSUMER_KEY = 'c3uHMoRbtTHCX4PQahnGSnp95'
-    CONSUMER_SECRET = 'l2M1Pg7m9m8V4FL3L8oJYEwlDyGsmerxV33OWWLOYve3M9yOjw'
-    ACCESS_KEY = '789727477425840128-GBe2O4XOO5piq9dpQKLy9WmhdLkGbwt'
-    ACCESS_SECRET = 'cF0ZBdgRmbrZs48i5n61dvXOj0GwQLu8tD3sbdvZGvXxX'
+    CONSUMER_KEY = ''
+    CONSUMER_SECRET = ''
+    ACCESS_KEY = ''
+    ACCESS_SECRET = ''
 
     auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
     auth.set_access_token(ACCESS_KEY, ACCESS_SECRET)
